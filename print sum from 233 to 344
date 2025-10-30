@@ -1,0 +1,17 @@
+package homewwork;
+
+public class printnumnwer {
+	public static void main(String[] args) {
+		int k=233, sum=0;
+		while(k<=344) {
+			if(k%4==0 && k%7==0) {
+				sum=sum+k;
+			}
+		
+			k++;
+		}
+		System.out.println(sum);
+	
+	}
+
+}
