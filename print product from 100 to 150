@@ -1,0 +1,15 @@
+package homewwork;
+
+public class productdivisle3and5 {
+	public static void main(String[] args) {
+		int k=100,product=1;
+		while(k<=150) {
+			if(k%3==0 && k%5==0) {
+				product=product*k;
+			}
+			k++;
+		}
+		System.out.println(product);
+	}
+
+}
